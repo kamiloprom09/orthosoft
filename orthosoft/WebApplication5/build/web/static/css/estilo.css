@@ -1,0 +1,148 @@
+
+* {
+    padding:0;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    
+background-image: url("../images/fondo3.jpg");
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.MainMenu{
+    text-align: center;
+    height: 2.75em;
+    line-height: 2.75em;
+    position: fixed;
+    right: 0; 
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: #00CED1;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+
+}
+.MainMenu-item{
+    display: inline-block;
+    margin-right: 0em;
+    padding-right: 0em;
+
+}
+.MainMenu-link{
+    margin-right: 0.5em;
+    margin-left: 0.5;
+    overflow: hidden;
+}
+.MainMenu-list{
+    margin: auto;
+    padding: 0px;
+
+}
+
+
+
+    
+    
+
+
+@media screen and (min-width: 1000px){
+
+
+}
+
+.Footer{
+    
+    background: #8CC7C7;
+    margin-top:25em;
+    padding: 5em 0;
+    
+    
+}
+
+ .Footer-formInput, .Footer-textArea {
+    background: white;
+    border-radius: 2em;
+    border: none;
+    display: block;
+    
+    padding: .5em;
+    margin-left: 60em;
+    
+}
+input {
+    line-height: normal;}
+
+.Footer-button{
+     background: blue;
+  border-radius: 1em;
+  border: none;
+  color:white;
+  padding: .5em 1em;
+  margin-left: 60em;
+}
+
+.Footer-description
+{
+  margin-right: 5em;  
+    
+}
+
+.Footer-form{
+    padding: 2em;
+}
+
+.w3-third somos{
+    background: wheat;
+}
+
+.footer-imaje{
+    margin-left: 50em;
+        margin-top: 3em;
+            border-radius: 25%;
+}
+
+.Mensaje{
+    
+     background: white;
+              border-radius: 2em;
+              border:none;
+              
+              padding: .5em;
+}
+
+.Inicio{
+        margin-left: 30em;
+}
+
+.botones1{
+      width: auto;
+    height: 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+   
+}
+
+.botones{
+    margin: auto;
+    display: inline;
+    padding: 15px;
+    border: 2em;
+    padding: .5em 1em;
+    border-radius: 2em;
+    background: #6DB63B;
+    
+}
+    
